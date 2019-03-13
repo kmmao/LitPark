@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParkLib
+namespace LitPark
 {
     /// <summary>
     /// 车场基本信息
@@ -27,23 +27,28 @@ namespace ParkLib
         public string Name { get; set; }
 
         /// <summary>
-        /// 禁止临时车
+        /// 禁止临时车进入
         /// </summary>
         public int BanTemp { get; set; }
 
         /// <summary>
-        /// 是否进入
+        /// 进入的IP
         /// </summary>
-        public bool IsEnter { get; set; }
+        public string EnterIP { get; set; }
 
         /// <summary>
-        /// 对应的IP
+        /// 进入端口
         /// </summary>
-        public string CameraIP { get; set; }
+        public int EnterPort { get; set; }
 
         /// <summary>
-        /// 对应端口
+        /// 离开的IP
         /// </summary>
-        public int CameraPort { get; set; }
+        public string LeaveIP { get; set; }
+        
+        /// <summary>
+        /// 离开的端口
+        /// </summary>
+        public int LeavePort { get; set; }
     }
 }

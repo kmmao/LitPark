@@ -16,5 +16,10 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

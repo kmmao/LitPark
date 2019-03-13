@@ -7,21 +7,25 @@ using System.Threading.Tasks;
 namespace LitPark
 {
     /// <summary>
-    /// 车或车位类型
+    /// 车位类型
     /// </summary>
     public enum ParkCarType
     {
         /// <summary>
-        /// 固定车
+        /// 私人车位
         /// </summary>
-        Fixed = 0,
+        Private = 0,
         /// <summary>
-        /// 流动车
+        /// 固定车位
         /// </summary>
-        Move = 1,
+        Fixed = 1,
         /// <summary>
-        /// 临时车
+        /// 流动车位
         /// </summary>
-        Temp = 2
+        Move = 2,
+        /// <summary>
+        /// 临时车位
+        /// </summary>
+        Temp = 3
     }
 }

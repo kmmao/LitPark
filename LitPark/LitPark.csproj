@@ -41,16 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParkOutsideAction.cs" />
     <Compile Include="ParkAdminActionType.cs" />
     <Compile Include="ParkCarType.cs" />
     <Compile Include="ParkAdminLogEntity.cs" />
+    <Compile Include="ParkInsideAction.cs" />
     <Compile Include="ParkMemberEntity.cs" />
     <Compile Include="ParkGroupType.cs" />
-    <Compile Include="ParkInfoEntity.cs" />
+    <Compile Include="ParkSpaceEntity.cs" />
     <Compile Include="ParkLotEntity.cs" />
     <Compile Include="ParkPayEntity.cs" />
     <Compile Include="ParkAdminEntity.cs" />
     <Compile Include="ParkPayType.cs" />
+    <Compile Include="ParkProcess.cs" />
     <Compile Include="ParkTicketSourceEntity.cs" />
     <Compile Include="ParkCarLogEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

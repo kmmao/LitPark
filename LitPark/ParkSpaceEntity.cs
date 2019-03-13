@@ -9,7 +9,7 @@ namespace LitPark
     /// <summary>
     /// 车位基本信息
     /// </summary>
-    public class ParkInfoEntity
+    public class ParkSpaceEntity
     {
         /// <summary>
         /// 车位id
